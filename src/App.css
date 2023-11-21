@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+Form {
+  max-width: 400px;
+  margin: auto;
+}
+
+Form.Group {
+  margin-bottom: 20px;
+}
+
+Form.Label {
+  font-weight: bold;
+}
+
+Form.Control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+Form.Control:focus {
+  border-color: #007bff;
+}
+
+Button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+Button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Form {
+  animation: fadeIn 0.5s ease-in-out;
+}
