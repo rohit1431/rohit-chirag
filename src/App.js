@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           
-          ok this deployment is working
+          hello 
         </p>
         <a
           className="App-link"
